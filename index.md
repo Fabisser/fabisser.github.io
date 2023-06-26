@@ -8,28 +8,18 @@ I am a recent graduate of the Geomatics Masters programme at TU Delft. My Master
 
 Before studying Geomatics, I completed a bachelor in Mathematics at Leiden University, with a minor in Music Science at Utrecht University.
 
-
-
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+This page will be updated regularly with any projects I think belong here.
 
 # Resume
 
-My CV can be found here:
+My CV can be found here: [Link to another page](./cv_FabianVisser.pdf).
 
 
 
 
-## Header 2
+# StyleSDF
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+
 
 ### Header 3
 
