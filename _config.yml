@@ -1,6 +1,6 @@
 title: Fabian Visser
 logo: /assets/imgPhoto from Fabian.jpg
 description: Welcome to my page! This will contain projects I find worth sharing
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
