@@ -12,13 +12,11 @@ This page will be updated regularly with any projects I think belong here.
 
 # Resume
 
-My CV can be found here: [Link to another page](./cv_FabianVisser.pdf).
-
-
-
+My CV can be found [here](./cv_FabianVisser.pdf).
 
 # StyleSDF
 
+For my Masters thesis, which can be viewed [here](http://resolver.tudelft.nl/uuid:7f8ef49b-7c9c-4281-bd93-b921d9b28d49), I have created a repository, which can be found [here](https://github.com/Fabisser/stylesdf)
 
 
 ### Header 3
