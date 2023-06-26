@@ -2,6 +2,14 @@
 layout: default
 ---
 
+# About
+
+I am a recent graduate of the Geomatics Masters programme at TU Delft. My Master's thesis was on neural 3D reconstruction and stylization.
+
+Before studying Geomatics, I completed a bachelor in Mathematics at Leiden University, with a minor in Music Science at Utrecht University.
+
+
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
@@ -10,9 +18,12 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
+# Resume
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+My CV can be found here:
+
+
+
 
 ## Header 2
 
