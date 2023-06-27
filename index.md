@@ -17,7 +17,7 @@ My CV can be found [here](./cv_FabianVisser.pdf).
 # StyleSDF
 
 
-![StyleSDF](./pages/styleSDF/bkgogh.gif)
+![StyleSDF](./pages/styleSDF/resources/bkgogh.gif)
 
 ### [\[Paper\]](https://repository.tudelft.nl/islandora/object/uuid:7f8ef49b-7c9c-4281-bd93-b921d9b28d49/datastream/OBJ/download) [\[Project Page\]](./pages/styleSDF/index.html) [\[Code\]](github.com/Fabisser/stylesdf) 
 
