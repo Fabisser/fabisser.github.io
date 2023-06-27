@@ -16,7 +16,7 @@ My CV can be found [here](./cv_FabianVisser.pdf).
 
 # StyleSDF
 
-For my Masters thesis, which can be viewed [here](http://resolver.tudelft.nl/uuid:7f8ef49b-7c9c-4281-bd93-b921d9b28d49), I have created a repository, which can be found [here](https://github.com/Fabisser/stylesdf)
+For my Masters thesis, which can be viewed [here](http://resolver.tudelft.nl/uuid:7f8ef49b-7c9c-4281-bd93-b921d9b28d49), I have created a repository, which can be found [here](./pages/styleSDF/index.html)
 
 
 ### Header 3
