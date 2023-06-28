@@ -176,14 +176,6 @@
 				</td>
 			</tr>
 		</table>
-		<table align=center width=850px>
-			<tr>
-				<td>
-					Using <a href='https://lioryariv.github.io/idr'>[IDR]</a>,
-					we create a 3D reconstruction which we then style using NNFM from <a href='https://www.cs.cornell.edu/projects/arf/'>[ARF]</a> or the original <a href='https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf'>[NST]</a> style approach.
-				</td>
-			</tr>
-		</table>
 	</center>
 
 	<hr>
@@ -195,24 +187,14 @@
 				Style transfer is a recent field in the development of deep neural networks, which allows
 for the style from one image to be transferred onto another image. This has been well-
 researched for 2D images, but transferring style onto 3D reconstructed content can still be
-further developed. Being able to style a 3D reconstruction would allow users to recreate
-anything in the real world, such as a chair, with any style they see fit. Where other methods
-use texture-based approaches which often create low quality geometry and appearance, or
-use radiance fields which style a whole scene instead of just the 3D reconstructed object, we
-have developed a method which styles an implicit surface.
-We achieve this by using Implicit Differentiable Renderer (IDR), which trains, using masked
+further developed.\n
+We achieve this by using  <a href='https://lioryariv.github.io/idr'>Implicit Differentiable Renderer</a> (IDR), which trains, using masked
 images as input, two neural networks that learn the geometry and appearance. Rendered
 views of the object are styled using 2D neural style transfer (NST) methods, and the style
 information is used to further train the appearance network to display the given style. With
 Masked deferred back-propagation we are able to optimize the appearance renderer, which is
 normally trained on only patches of the rendered image to save memory, while using style
 transfers designed for full-resolution images.
-We showcase different results from our method using different 3D reconstruction datasets
-and style images, and showcase how to implement a user-created dataset. We carry out
-extensive tests on what effects different parameters have on the final result. Comparing our
-results to similar 3D style methods demonstrates that our method performs equally well in
-achieving faithful style transfer, while having the benefits of creating high quality geometry
-and only styling the reconstructed surface.
 			</td>
 		</tr>
 	</table>
