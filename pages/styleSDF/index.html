@@ -208,7 +208,7 @@ transfers designed for full-resolution images.
 				3D style transfer is achieved by first training both geometry f and appearance M using IDR. We then train
 				a copy of the appearance renderer M<sub>style</sub> to further style the appearance based on a given
 				style image. An image of the surface is rendered, and using 2D style transfer approaches the content and style loss are calcualted. The calculated gradients are then backpropagated
-					to optimize M<sub>style</sub>. We adapt from ARF deferred back-propagation for our masked input to reduce memory usage.
+					to optimize M<sub>style</sub>. We adapt from <a href='https://www.cs.cornell.edu/projects/arf/'>Artistic Radiance Fields</a> deferred back-propagation for our masked input to reduce memory usage.
 				</td>
 			</tr>
 		</table>
@@ -230,22 +230,22 @@ transfers designed for full-resolution images.
 		<center><h1>Results</h1></center>
 		<tr>
 			<td><img class="round" style="width:500px" src="./resources/bkorig.gif"/></td>
+		</tr>
+		<tr>
 			<td><img class="round" style="width:500px" src="./resources/bkgogh.gif"/></td>
+		</tr>
+		<tr>
 			<td><img class="round" style="width:500px" src="./resources/mondriaan.gif"/></td>
+		</tr>
+		<tr>
 			<td><img class="round" style="width:500px" src="./resources/egypt.gif"/></td>
+		</tr>
+		<tr>
 			<td><img class="round" style="width:500px" src="./resources/space.gif"/></td>
 
 		</tr>
 	</table>
 	<br>
-
-	<table align=center width=600px>
-		<tr>
-			<td><span style="font-size:14pt"><center>
-				<a href="./resources/bibtex.txt">[Bibtex]</a>
-			</center></td>
-		</tr>
-	</table>
 
 	<hr>
 	<br>
