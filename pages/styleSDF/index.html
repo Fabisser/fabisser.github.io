@@ -187,8 +187,7 @@
 				Style transfer is a recent field in the development of deep neural networks, which allows
 for the style from one image to be transferred onto another image. This has been well-
 researched for 2D images, but transferring style onto 3D reconstructed content can still be
-further developed.\n
-We achieve this by using  <a href='https://lioryariv.github.io/idr'>Implicit Differentiable Renderer</a> (IDR), which trains, using masked
+further developed. We achieve this by using  <a href='https://lioryariv.github.io/idr'>Implicit Differentiable Renderer</a> (IDR), which trains, using masked
 images as input, two neural networks that learn the geometry and appearance. Rendered
 views of the object are styled using 2D neural style transfer (NST) methods, and the style
 information is used to further train the appearance network to display the given style. With
@@ -199,12 +198,11 @@ transfers designed for full-resolution images.
 		</tr>
 	</table>
 	<br>
-
+	</hr>
 	<hr>
-	<center><h1>Method</h1></center>
-	<center>
-		<table align=center width=850px>
-			<center><h1>Abstract</h1></center>
+
+	<table align=center width=850px>
+		<center><h1>Abstract</h1></center>
 			<tr>
 				<td>
 				3D style transfer is achieved by first training both geometry f and appearance M using IDR. We then train
@@ -220,10 +218,11 @@ transfers designed for full-resolution images.
 					<center>
 						<img class="round" style="width:500px" src="./resources/image.png"/>
 					</center>
-				</td>
-			</tr>
-		</table>
-	</center>
+			</td>
+		</tr>
+	</table>
+	<br>
+	</hr>
 
 	<center><h1>Code</h1></center>
 
