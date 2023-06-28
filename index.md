@@ -26,4 +26,4 @@ My CV can be found [here](./cv_FabianVisser.pdf).
 
 ![facesBgone](https://user-images.githubusercontent.com/79523968/200880391-47baeb94-fb50-4fa5-a933-80341f22e32f.jpg)
 
-###[\[Paper\]](https://repository.tudelft.nl/islandora/object/uuid:d818a87a-9c98-403a-aaa4-3ad80b360f72/datastream/OBJ/download) [\[Code\]](https://github.com/Fabisser/facesBgone)
+### [\[Paper\]](https://repository.tudelft.nl/islandora/object/uuid:d818a87a-9c98-403a-aaa4-3ad80b360f72/datastream/OBJ/download) [\[Code\]](https://github.com/Fabisser/facesBgone)
