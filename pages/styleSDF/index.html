@@ -201,21 +201,29 @@ transfers designed for full-resolution images.
 	<br>
 
 	<hr>
-	<center><h1>Talk</h1></center>
-	<p align="center">
-		<iframe width="660" height="395" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe>
-	</p>
-
-	<table align=center width=800px>
-		<br>
-		<tr>
-			<center>
-				<span style="font-size:28px"><a href=''>[Slides]</a>
-				</span>
-			</center>
-		</tr>
-	</table>
-	<hr>
+	<center><h1>Method</h1></center>
+	<center>
+		<table align=center width=850px>
+			<center><h1>Abstract</h1></center>
+			<tr>
+				<td>
+				3D style transfer is achieved by first training both geometry f and appearance M using IDR. We then train
+				a copy of the appearance renderer M<sub>style</sub> to further style the appearance based on a given
+				style image. An image of the surface is rendered, and using 2D style transfer approaches the content and style loss are calcualted. The calculated gradients are then backpropagated
+					to optimize M<sub>style</sub>. We adapt from ARF deferred back-propagation for our masked input to reduce memory usage.
+				</td>
+			</tr>
+		</table>
+		<table align=center width=850px>
+			<tr>
+				<td width=260px>
+					<center>
+						<img class="round" style="width:500px" src="./resources/image.png"/>
+					</center>
+				</td>
+			</tr>
+		</table>
+	</center>
 
 	<center><h1>Code</h1></center>
 
