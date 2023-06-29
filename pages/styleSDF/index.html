@@ -229,12 +229,61 @@ transfers designed for full-resolution images.
 	<table align=center width=450px>
 		<center><h1>Results</h1></center>
 		<tr>
-			<td><img class="round" style="width:500px" src="./resources/combined.gif"/></td>
+			<td><img class="round" style="width:1000px" src="./resources/combined.gif"/></td>
 
 		</tr>
 	</table>
 	<br>
 
+	<hr>
+
+	<table align=center width=850px>
+		<center><h1>Datasets</h1></center>
+			<tr>
+				<td>
+				The expected input for 3D reconstruction is the same as IDR, plus a style image. Example datasets created by IDR can be found <a href='https://www.dropbox.com/sh/5tam07ai8ch90pf/AADniBT3dmAexvm_J1oL__uoa'>here</a>. The Dataset of the BK building shown above is included in the repository.
+					It is also possible to create your own dataset, using photoshop to create mask information and COLMAP to calculate the camera parameters.
+				</td>
+			</tr>
+		</table>
+		<table align=center width=850px>
+			<tr>
+				<td width=260px>
+					<center>
+						<img class="round" style="width:1000px" src="./resources/datasets.gif"/>
+					</center>
+			</td>
+		</tr>
+	</table>
+	<br>
+	</hr>
+
+
+	<hr>
+
+	<table align=center width=850px>
+		<center><h1>Including content matching</h1></center>
+			<tr>
+				<td>
+				We can train the style representation with and without content loss. Having content loss included results in more of the original appearance included, at the cost of styling. We see that for the BK building, the architecture text becomes more visible, but the windows also become less styled.
+				</td>
+			</tr>
+		</table>
+		<table align=center width=850px>
+			<tr>
+				<td width=260px>
+					<center>
+						<img class="round" style="width:1000px" src="./resources/contprocon.gif"/>
+					</center>
+			</td>
+		</tr>
+	</table>
+	<br>
+	</hr>
+
+
+
+	
 	<hr>
 	<br>
 
